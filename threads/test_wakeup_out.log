@@ -1,0 +1,66 @@
+starting wakeup test
+sleep
+SLEEP CAPACITY 0
+initial thread returns from sleep(NULL)
+sleep
+SLEEP CAPACITY 0
+initial thread returns from sleep(NONE)
+wakeup
+step 1
+wakeup
+step 2
+yield
+HERE 17
+ID is 1
+ID is 2
+ID is 3
+ID is 4
+ID is 5
+ID is 6
+ID is 7
+ID is 8
+sleep
+SLEEP CAPACITY 16
+sleep
+SLEEP CAPACITY 15
+sleep
+SLEEP CAPACITY 14
+sleep
+SLEEP CAPACITY 13
+sleep
+SLEEP CAPACITY 12
+sleep
+SLEEP CAPACITY 11
+sleep
+SLEEP CAPACITY 10
+sleep
+SLEEP CAPACITY 9
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+yield
+wakeup
+step 2
+yield
+0
+test_thread.c:516: test_wakeup: please implement this functionality

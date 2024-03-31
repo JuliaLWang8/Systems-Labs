@@ -1,0 +1,18 @@
+starting wakeup test
+sleep
+SLEEP CAPACITY 0
+initial thread returns from sleep(NULL)
+sleep
+SLEEP CAPACITY 0
+initial thread returns from sleep(NONE)
+wakeup
+WAKEUP CAPACITY 0
+step 1
+wakeup
+WAKEUP CAPACITY 0
+step 2
+CREATE CAPACITY 0
+WE ARE ENQUEING CAPACITY 0
+FINISH ENQUEUE CAPACITY 1
+HERE IS THE PROBLEM. THE CAPACITY SHOULD NOW ONLY BE 1, BUT IT IS NOW 2. YOU INCREMENTED YOUR READY QUEUE IN CREATE WHEN ENQUEUE ALREADY DID THAT FOR YOU.
+thread.c:287: thread_create: please implement this functionality

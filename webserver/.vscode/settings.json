@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "server_thread.h": "c",
+        "common.h": "c"
+    }
+}

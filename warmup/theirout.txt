@@ -1,0 +1,48 @@
+/cad2/ece353s/tester:
+total 17
+drwxrwxr-x 2 stumm e353S21 20 May  7  2021 bin
+drwxrwxr-x 3 stumm e353S21 19 May  7  2021 scripts
+
+/cad2/ece353s/tester/bin:
+total 113
+-rwxrwxr-x 1 stumm e353S21 72240 Dec 27  2020 cktestfs
+-rwxrwxr-x 1 stumm e353S21  5527 Jan 15  2021 ece353-tester
+-rwxrwxr-x 1 stumm e353S21  5527 Jan 15  2021 ece353-tester~
+-rwxrwxr-x 1 stumm e353S21    53 Dec 27  2020 ece353-vnc
+-rwxrwxr-x 1 stumm e353S21  2277 Jan 15  2021 generate-mail
+-rwxrwxr-x 1 stumm e353S21  2277 Dec 27  2020 generate-mail~
+-rwxrwxr-x 1 stumm e353S21  1940 Jan 15  2021 generate-marks
+-rwxrwxr-x 1 stumm e353S21  1940 Dec 27  2020 generate-marks~
+-rwxrwxr-x 1 stumm e353S21  2497 Dec 27  2020 generate-one-mail
+-rwxrwxr-x 1 stumm e353S21  2497 Dec 27  2020 generate-one-mail~
+-rwxrwxr-x 1 stumm e353S21  3089 Jan 15  2021 para-marker.py
+-rwxrwxr-x 1 stumm e353S21  3089 Dec 27  2020 para-marker.py~
+-rwxrwxr-x 1 stumm e353S21  1049 Dec 27  2020 send-mail
+-rw-rwxr-x 1 stumm e353S21  2196 Jan 15  2021 setup
+-rw-rw-r-- 1 stumm e353S21  2196 Jan 15  2021 setup~
+-rwxrwxr-x 1 stumm e353S21  2717 Dec 27  2020 ugload
+-rwxrwxr-x 1 stumm e353S21  1657 Dec 27  2020 ugproc
+-rwxrwxr-x 1 stumm e353S21  2508 Dec 27  2020 update-marks
+
+/cad2/ece353s/tester/scripts:
+total 72
+-rwxrwxr-x 1 stumm    e353S21 1662 Dec 27  2020 lab1-01-warmup.py
+-rwxrwxr-x 1 stumm    e353S21 4190 Dec 27  2020 lab2-01-ucontext.py
+-rwxrwxr-x 1 stumm    e353S21 2109 Dec 27  2020 lab2-02-basic.py
+-rwxrwxr-x 1 stumm    e353S21 3782 Dec 27  2020 lab3-01-preemptive.py
+-rwxrwxr-x 1 stumm    e353S21 1047 Dec 27  2020 lab3-02-wakeup.py
+-rwxrwxr-x 1 stumm    e353S21  730 Dec 27  2020 lab3-03-wakeupall.py
+-rwxrwxr-x 1 stumm    e353S21 2440 Dec 27  2020 lab3-04-wait.py
+-rwxrwxr-x 1 stumm    e353S21 2225 Dec 27  2020 lab3-05-lock.py
+-rwxrwxr-x 1 stumm    e353S21 2770 Dec 27  2020 lab3-06-cv-signal.py
+-rwxrwxr-x 1 stumm    e353S21 2782 Dec 27  2020 lab3-07-cv-broadcast.py
+-rwxrwxr-x 1 stumm    e353S21 6010 Dec 27  2020 lab4-01-webserver.py
+-rwxrwxr-x 1 stumm    e353S21 5558 Dec 27  2020 lab5-01-webserver.py
+-rwxrwxr-x 1 stumm    e353S21  668 Dec 27  2020 lab6-01-testfs.py
+dr-xrwxr-x 2 stumm    e353S21    3 Dec 27  2020 readonlydir
+-rwxrwxr-x 1 stumm    e353S21 7831 Dec 27  2020 tester.py
+-rw-r--r-- 1 chenfe19 e353S21 7319 Mar 12  2021 tester.pyc
+
+/cad2/ece353s/tester/scripts/readonlydir:
+total 1
+-rw-r--r-- 1 stumm e353S21 32 Dec 27  2020 testfile
